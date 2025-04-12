@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+
+// Ресет/normalize (можно добавить свой или использовать сторонний)
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+section {
+  margin: 2rem auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
